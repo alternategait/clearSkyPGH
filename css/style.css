@@ -13,9 +13,22 @@
 img{
   display: block;
   margin: 0 auto;
+  height: 50vh;
+  width: auto;
 }
 
+.noDisplay{
+  display: none;
+}
 
+h1 h2 button p{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+p { 
+  padding: 0 5%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
