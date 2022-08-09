@@ -10,6 +10,12 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body{
+  background: url(../CloudyPGH.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgb(240, 248, 255);
+}
+
 img{
   display: block;
   margin: 0 auto;
@@ -20,14 +26,21 @@ img{
 .noDisplay{
   display: none;
 }
-
-h1 h2 button p{
+section {
   width: 100%;
+}
+
+h1, h2, button, form, iframe, p{
   margin: auto;
   text-align: center;
+  /* width: 80%; */
+}
+
+section > h2 {
+  padding: 2%, 5%;
 }
 p { 
-  padding: 0 5%;
+  padding: 2% 5%;
 }
 /******************************************
 /* ADDITIONAL STYLES
