@@ -10,11 +10,46 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+section {
+  width: 100%;
+}
+
+h1, h2, button, form, iframe, p{
+  margin: auto;
+  text-align: center;
+}
+
+/* section > h2 {
+  padding: 2%, 5%;
+} */
+p { 
+  padding: 2% 5%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
 body{
   background: url(../CloudyPGH.jpeg) no-repeat center center fixed;
 /* "Pittsburgh Pennsylvania ~ Boat Cruise along the Ohio River" by Onasill ~ Bill is licensed under CC BY-NC-SA 2.0.  */
   background-size: cover;
   background-color: rgb(240, 248, 255);
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  width: 80%;
+  margin: 2% auto 1% auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto 2% auto;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  backdrop-filter: blur(10px);
 }
 
 img{
@@ -27,22 +62,3 @@ img{
 .noDisplay{
   display: none;
 }
-section {
-  width: 100%;
-}
-
-h1, h2, button, form, iframe, p{
-  margin: auto;
-  text-align: center;
-  /* width: 80%; */
-}
-
-section > h2 {
-  padding: 2%, 5%;
-}
-p { 
-  padding: 2% 5%;
-}
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
