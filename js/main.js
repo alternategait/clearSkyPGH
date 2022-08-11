@@ -22,11 +22,13 @@ function showSpace(){
                 document.querySelector('img').src=data.hdurl;
                 document.querySelector('img').classList.add("img");
                 document.querySelector('img').classList.remove("noDisplay");
+                document.getElementById('videowrap').classList.add("noDisplay");
                 document.querySelector('iframe').classList.add("noDisplay");
             }else if(data.media_type === "video"){
                 document.querySelector('iframe').src=data.url;    
                 document.querySelector('iframe').classList.add("video");
-                document.querySelector('iframe').classList.remove("noDisplay");
+                document.getElementById('videowrap').classList.remove("noDisplay");
+                document.querySelector('iframe').classList.remove("noDisplay")
                 document.querySelector('img').classList.add("noDisplay");
             }   
         })
