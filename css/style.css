@@ -105,9 +105,9 @@ p, span, button{
 
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-  @media (min-width:320px)  {
+  @media (max-width: 400px) {
     html{
-      font-size: 150%;
+      font-size: 200%;
     }
 }
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
