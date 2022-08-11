@@ -105,7 +105,11 @@ p, span, button{
 
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-  /* @media (min-width:320px)  { } */
+  @media (min-width:320px)  {
+    html{
+      font-size: 150%;
+    }
+}
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 /* @media (min-width:481px)  {  } */
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -115,4 +119,4 @@ p, span, button{
 /* big landscape tablets, laptops, and desktops */
 /* @media (min-width:1025px) {  } */
 /* hi-res laptops and desktops */ 
-/* @media (min-width:1281px) { }  */ */
+/* @media (min-width:1281px) { }  */ 
