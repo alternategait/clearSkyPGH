@@ -3,6 +3,8 @@
 
 A small project connecting to NASA astronomy picture of the day to allow people in Pittsburgh to see stars (because it's always cloudy).
 
+clearskypgh.netlify.app
+
 ![project-image05](https://user-images.githubusercontent.com/102367926/184868779-a2ed8e4a-c24e-4959-b1bf-582c666b62af.png)
 
 
@@ -12,6 +14,7 @@ tech used: HTML, CSS, client side JavaScript. Client side JavaScript runs a fetc
 
 ### Optimizations
 x styling of page completed 8/10/22
+
 x improving switch from video to picture or picture to video  completed 8/11/22
 
 ### Lessons learned
