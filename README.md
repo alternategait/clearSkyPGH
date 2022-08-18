@@ -19,4 +19,4 @@ x improving switch from video to picture or picture to video  completed 8/11/22
 
 ### Lessons learned
 
-The promise syntax of fetch request, use of JSON data, ability to use iframe, 
+The promise syntax of fetch request, use of JSON data, ability to use iframe, background-blur ("glass-card look"some resources suggest that it is less accessible due to low contrast, but in this case I used black text on blue/white background. I feel that for people with low vision this is a better choice than the text was on the bottom of this picture with the image of choppy water).
